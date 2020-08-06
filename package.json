@@ -1,6 +1,6 @@
 {
   "name": "react-use-portal",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "使用hook创建共用弹出层",
   "author": "wenlei0617",
   "license": "MTI",
@@ -24,7 +24,8 @@
     "deploy": "gh-pages -d example/build"
   },
   "peerDependencies": {
-    "react": "^16.0.0"
+    "react": "^16.0.0",
+    "react-dom": "^16.13.1"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^4.2.4",
