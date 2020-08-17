@@ -12,3 +12,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 200px;
+  height: 100px;
+  box-sizing: border-box;
+  padding: 30px 20px;
+  overflow: hidden;
+  /* height: 100px; */
+  background-color: #fff;
+  margin: auto;
+  border-radius: 5px;
+}
+
+.mask button {
+  background-color: rgba(0,0,0,0);
+  border: none;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}

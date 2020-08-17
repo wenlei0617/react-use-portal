@@ -1,6 +1,6 @@
 {
   "name": "react-use-portal",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "description": "使用hook创建共用弹出层",
   "author": "wenlei0617",
   "license": "MTI",

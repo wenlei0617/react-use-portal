@@ -2,7 +2,7 @@
  * @Author: gary 
  * @Date: 2020-08-06 17:43:23 
  * @Last Modified by: gary
- * @Last Modified time: 2020-08-06 18:13:43
+ * @Last Modified time: 2020-08-17 11:27:19
  */
 import React, { useState, useCallback } from 'react';
 import ReactDOM from 'react-dom';
@@ -16,8 +16,6 @@ interface ProtalOptions {
 }
 
 const useProtal = ({ closeOnOutSide = true, className = '', rootContainer = document.body, defaultShow = false }: ProtalOptions = {}) => {
-	// const { closeOnOutSide = true, className = '', rootContainer = document.body, defaultShow = false } = data;
-	console.log(rootContainer);
 	const [isShow, setShow] = useState(defaultShow);
 
 	const handleClose = useCallback(() => {
